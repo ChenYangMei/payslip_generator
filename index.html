@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" media="screen" title="no title">
+</head>
+
+<script src="jquery.js"></script>
+<script src="main.js"></script>
+
+<body>
+  <main>
+    <h1>Welcome to Our Awesome Payslip Generator!</h1>
+    
+    <div id="dvImportSegments" class="fileupload ">
+      <fieldset>
+          <legend>Upload your CSV File</legend>
+            <input type="file" name="File Upload" id="txtFileUpload" accept=".csv" />
+      </fieldset>
+    </div>
+
+    <div class="submit">
+      <button id="display" type="button" name="button">Show Payslip</button>
+      <button id="download" type="button" name="button">Download Payslip</button>
+    </div>
+
+    <div class="payslip">
+
+    </div>
+
+  </main>
+
+</body>
+</html>
