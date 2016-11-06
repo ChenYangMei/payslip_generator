@@ -21,4 +21,7 @@ Press the button 'Show payslip' to view the payslip on the web page or download 
 - jQuery
 - HTML5 file API
 
+# Reference
+- https://cmatskas.com/importing-csv-files-using-jquery-and-html5
+
 Thank you for stopping by.
