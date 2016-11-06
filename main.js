@@ -1,9 +1,4 @@
-// Please complete the exercise below using the language of your choice (but preferably Javascript) and send us your solution.
-// Take as much time as you need and feel free to ask questions of anyone on this email thread. We perform these tests to get a feel for how you approach problems, how you think, and how you design your code.
-//
-// Thank you and have fun.
-// ----------------------------------------------------------------------------------
-//
+
 // Problem: Employee monthly payslip
 //
 // When I input the employee's details: first name, last name, annual salary (positive integer) and super rate(0% - 50% inclusive), payment start date, the program should generate payslip information with name, pay period,  gross income, income tax, net income and super.
