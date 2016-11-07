@@ -11,9 +11,9 @@ This simple monthly payslip generator is a fun code challenge I did for myob aft
 
 Simply go to the link https://gingernutter.github.io/payslip_generator/, upload a CSV file with employee information in the following format:
 
-first name, last name, annual salary, super rate (%), payment start date
-David,Rudd,60050,9%,01 March – 31 March
-Ryan,Chen,120000,10%,01 March – 31 March
+- first name, last name, annual salary, super rate (%), payment start date
+- David,Rudd,60050,9%,01 March – 31 March
+- Ryan,Chen,120000,10%,01 March – 31 March
 
 Press the button 'Show payslip' to view the payslip on the web page or download payslip.csv by hitting the 'Download payslip' button.
 
