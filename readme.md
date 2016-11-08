@@ -1,11 +1,11 @@
 # Pay Slip Generator
 
-This simple monthly payslip generator is a fun code challenge I did for myob after General Assembly's WDI course. The calculation is designed to run on the client side in the browser.
+This simple monthly payslip generator is a fun code challenge I did for myob after General Assembly's WDI course.
 
 # Assumptions
 - The client would be able to upload a CSV file in a web page.
 - The application should create a monthly payslip in a CSV format and would be good to also display it in the web page.
-- The input and output can be handled in the browser (HTML5, Javascript and jQuery) hence a server is not necessary for this task. However, the result (payslip) should be easily transferred into a JSON string ready to be sent to the server side with xmlhttprequests if needed.
+
 
 # How to use it?
 
@@ -22,6 +22,15 @@ Press the button 'Show payslip' to view the payslip on the web page or download 
 - Javascript
 - jQuery
 - HTML5 file API
+- Node.js
+
+# Dependencies:
+- Express 4.14.0
+- Chai 3.5.0
+- Mocha 3.1.2
+- body-parser 1.15.2
+- csv-parse 1.1.7
+- Multer 1.2.0
 
 # Reference
 - https://nodejs.org/api/fs.html
