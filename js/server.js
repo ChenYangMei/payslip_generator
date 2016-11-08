@@ -26,7 +26,6 @@ app.post("/upload", upload.single('myfile'), function (req, res, next) {
 
       res.send(calculate(array));
     });
-
 });
 
 app.listen(3000, function () {

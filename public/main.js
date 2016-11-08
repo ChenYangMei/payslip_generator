@@ -29,8 +29,22 @@ $(document).ready(function() {
                     processData: false,
                     contentType: false,
                     success: function(res){
-                        console.log(res);
-                        csv = res;
+
+                        data = JSON.parse(res);
+
+                        csv = Object.keys(data[0]).join(",") + '\r\n';
+
+                        for (var j = 0; j < data.length; j++) {
+                            var line = '';
+                            for (var index in data[j]) {
+                                line += data[j][index];
+                                if(line !== ''){
+                                    line += ',';
+                                }
+                            }
+                            csv += line + '\r\n';
+                        }
+
                     },
                     crossDomain: true
                 });

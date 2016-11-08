@@ -1,8 +1,6 @@
-var csv = require('./csv.js').csv;
 
 exports.calculate = function(response) {
-
-  var output = [];
+  var outputArray = [];
 
   for (var i = 1; i < response.length; i++) {
     var array = response[i];
@@ -30,9 +28,10 @@ exports.calculate = function(response) {
     newObj["net income"] = newObj["gross income"] - newObj["income tax"];
     newObj["super"] = Math.round(newObj["gross income"] * parseFloat(array[3])/100);
 
-    output.push(newObj);
+    outputArray.push(newObj);
   }
 
-  return csv(output);
+  var output = JSON.stringify(outputArray);
+  return output;
 
 };
