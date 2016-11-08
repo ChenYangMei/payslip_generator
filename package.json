@@ -9,7 +9,7 @@
   "main": "main.js",
   "scripts": {
     "test": "mocha",
-    "start": "nf start"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
