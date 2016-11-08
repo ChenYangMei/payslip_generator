@@ -19,11 +19,15 @@ $(document).ready(function() {
 
         } else {
             var file = evt.target.files[0];
+            console.log(file);
             var formData = new FormData();
             formData.append("myfile", file);
+            console.log(formData);
+            var url = window.location.href;
+            console.log(url);
 
                 $.ajax({
-                    url: "http://localhost:3000/upload",
+                    url: url + "upload",
                     type: "post",
                     data: formData,
                     processData: false,

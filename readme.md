@@ -9,7 +9,7 @@ This monthly payslip generator is a fun code challenge I did for MYOB after Gene
 
 # How to use the application?
 
-Simply go to the link https://gingernutter.github.io/payslip_generator/, upload a CSV file with your 'employee' details in the following format:
+Simply go to the link https://awesome-payslip-generator.herokuapp.com/, upload a CSV file with your 'employee' details in the following format:
 
 - first name, last name, annual salary, super rate (%), payment start date
 - David,Rudd,60050,9%,01 March – 31 March
