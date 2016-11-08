@@ -2,8 +2,9 @@
   "name": "paysilip_generator",
   "version": "1.0.0",
   "engines": {
-    "node": "6.3.0"
-  }
+    "node": "6.3.0",
+    "npm": "3.8.6"
+  },
   "description": "This simple monthly payslip generator is a fun code challenge I did for myob after General Assembly's WDI course. The calculation is designed to run on the client side in the browser.",
   "main": "main.js",
   "scripts": {
