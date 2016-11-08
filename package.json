@@ -4,7 +4,8 @@
   "description": "This simple monthly payslip generator is a fun code challenge I did for myob after General Assembly's WDI course. The calculation is designed to run on the client side in the browser.",
   "main": "main.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nf start"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "body-parser": "^1.15.2",
     "csv-parse": "^1.1.7",
     "express": "^4.14.0",
+    "foreman": "2.0.0",
     "multer": "^1.2.0"
   }
 }
