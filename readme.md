@@ -1,6 +1,6 @@
 # Pay Slip Generator
 
-This monthly payslip generator is a fun code challenge I did for MYOB after General Assembly's WDI course. I started this task by writing the calculating logic javaScript on the client side along with csv file upload and download, which works perfectly from a client's point of view. However, after learning more about Node.js and javaScript testing frameworks, I restructured this application by moving the calculation logic to the server side which makes it easier for unit testing.
+This monthly payslip generator is a fun code challenge I did for MYOB after General Assembly's WDI course. I started this task by writing the calculating logic javaScript on the client side along with csv file upload and download, which works perfectly in production. However, after learning more about Node.js and javaScript testing frameworks, I restructured this application by moving the business logic to the server side which makes it easier for unit testing.
 
 # Assumptions
 - The client would be able to upload a CSV file in a web page.
@@ -10,7 +10,7 @@ This monthly payslip generator is a fun code challenge I did for MYOB after Gene
 # How to run the application?
 - Fork this repository and clone it into your local depository.
 - If you have node.js installed, run `npm install` to install the dependencies in the terminal under the root depository.
-- `node js/server.js` to open localhost in your browser.
+- `node js/server.js` to run localhost in your browser.
 - `npm test` in the terminal under the root depository to run the test harness.
 
 # How to use the application?
@@ -25,10 +25,11 @@ Press the button 'Show payslip' to view the payslip on the web page or download 
 
 # Technologies involved:
 - HTML5
-- Javascript
+- JavaScript
 - jQuery
 - HTML5 file API
 - Node.js
+- Express
 - Mocha and Chai for testing
 
 # Dependencies:
